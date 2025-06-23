@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Custom Countdown Timer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1> Set Your Countdown</h1>
+
+    <div class="input-group">
+      <select id="day"></select>
+      <select id="month"></select>
+      <select id="year"></select>
+      <select id="hour"></select>
+      <select id="minute"></select>
+      <button onclick="startCountdown()">Start</button>
+    </div>
+
+    <div class="countdown" id="countdown-display">
+      <div class="time-box"><span id="days">00</span><p>Days</p></div>
+      <div class="time-box"><span id="hours">00</span><p>Hours</p></div>
+      <div class="time-box"><span id="minutes">00</span><p>Minutes</p></div>
+      <div class="time-box"><span id="seconds">00</span><p>Seconds</p></div>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
